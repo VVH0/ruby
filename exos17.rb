@@ -2,7 +2,7 @@ puts"Quel age as tu?:"
 print ">"
 age = gets.chomp.to_i
 
-i= 1
+i = 1
 
 
  while   i=age

@@ -1,9 +1,16 @@
-i = [ 1..50]
+for n in 1..50
 
-hachage = { "nom" => " jeandupond " , " numero " => " i " , " adresse " => " @mail.fr "}
+       if n<=9
 
-hachage.each{ |i|  }
+          emails << "jean.dupont.0#{x}@email.fr"
+          x += 1
 
-i = i + 1
+       else
 
-print tab 
+          emails << "jean.dupont.0#{x}@email.fr"
+          x += 1
+
+
+       end
+
+end

@@ -1,12 +1,9 @@
-i = [ 1..50]
 
-hachage = { "nom" => " jeandupond " , " numero " => " i " , " adresse " => " @mail.fr "}
+  for n in 1..50
 
-hachage.each{ |i|  }
+      next if  n %2 !
 
-i = i + 1
+      emails << "jean.dupont.0#{x}@email.fr"
+      x += 1
 
-
-for i = 0..50
-  print "#{i}" if i%2! = 0
-end
+  end
