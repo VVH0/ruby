@@ -1,16 +1,20 @@
+
+email = []
+
 for n in 1..50
 
        if n<=9
 
-          puts emails << "jean.dupont.0#{n}@email.fr"
-          x += 1
+         email << "jean.dupont.0#{n}@email.fr"
+
 
        else
 
-          puts emails << "jean.dupont.0#{n}@email.fr"
-          x += 1
+          email << "jean.dupont.#{n}@email.fr"
 
 
-       end
+        end
 
 end
+
+    p email
